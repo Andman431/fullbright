@@ -1,31 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "fullbright",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Fullbright",
+  "description": "Yeah, yet another gamma mod.",
   "authors": [
-    "Me!"
+    "Me! (Andman)"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/Andman431",
+    "sources": "https://github.com/Andman431/fullbright"
   },
-
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
-  "environment": "*",
+  "license": "MIT",
+  "icon": "assets/fullbright/icon.png",
+  "environment": "client",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
+    "client": [
+      "com.github.andman.fullbright.FullbrightMod"
+    ],
+    "modmenu": [
+      "com.github.andman.fullbright.config.ModMenuApiImpl"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "fullbright.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.14.19",
     "fabric-api": "*",
