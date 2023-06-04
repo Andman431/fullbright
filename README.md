@@ -1,6 +1,8 @@
 # Fullbright Mod
 
- Enables Fullbright funcionalty for minecraft 1.19.4 using a workaround.
+ Enables Fullbright funcionalty for higher versions of Minecraft using a workaround.
+ 
+ Requires [Cloth Config API](https://modrinth.com/mod/cloth-config) and [Mod Menu](https://modrinth.com/mod/modmenu)
 
 ## License
 [MIT](https://github.com/Andman431/fullbright/blob/1.19.4/LICENSE)
