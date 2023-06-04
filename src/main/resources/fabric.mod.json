@@ -9,7 +9,8 @@
   ],
   "contact": {
     "homepage": "https://github.com/Andman431",
-    "sources": "https://github.com/Andman431/fullbright"
+    "sources": "https://github.com/Andman431/fullbright",
+    "issues": "https://github.com/Andman431/fullbright/issues"
   },
   "license": "MIT",
   "icon": "assets/fullbright/icon.png",
