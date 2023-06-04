@@ -1,6 +1,6 @@
 # Fullbright Mod
 
- Enables Fullbright funcionalty for higher versions of Minecraft using a workaround.
+ Enables Fullbright funcionalty for higher versions of Minecraft using a workaround. (fabric only)
  
  Requires [Cloth Config API](https://modrinth.com/mod/cloth-config) and [Mod Menu](https://modrinth.com/mod/modmenu)
 
