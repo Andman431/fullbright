@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-// Mojang thinks they are smart, hehe.
+// Mojank thinks they are smart, hehe.
 @Mixin(SimpleOption.class)
 public class SimpleOptionMixin<T> {
     @Shadow
