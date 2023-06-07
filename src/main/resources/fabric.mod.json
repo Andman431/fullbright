@@ -17,20 +17,20 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "com.github.andman.fullbright.FullbrightMod"
-    ],
-    "modmenu": [
-      "com.github.andman.fullbright.config.ModMenuApiImpl"
+      "com.github.andman.fullbright.FullbrightClient"
     ]
   },
   "mixins": [
-    "fullbright.mixins.json"
+    {
+      "config": "fullbright.client.mixins.json",
+      "environment": "client"
+    }
   ],
   "depends": {
-    "fabricloader": ">=0.14.19",
-    "fabric-api": "*",
-    "minecraft": "~1.19.4",
-    "java": ">=17"
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20",
+    "java": ">=17",
+    "fabric-api": "*"
   },
   "suggests": {
     "another-mod": "*"

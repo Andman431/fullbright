@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.github.andman.fullbright.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"LightMapMixin",
+		"LightmapTextureManagerMixin",
+		"SimpleOptionMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
