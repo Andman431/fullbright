@@ -8,7 +8,7 @@
   "authors": ["Andman"],
   "contact": {},
 
-  "license": "All-Rights-Reserved",
+  "license": "MIT",
   "icon": "assets/fullbright/icon.png",
 
   "environment": "*",
