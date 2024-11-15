@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Fullbright",
-  "description": "Some useful client/mod",
+  "description": "Sets ur gamma value to 15f.",
   "authors": ["Andman"],
   "contact": {},
 
