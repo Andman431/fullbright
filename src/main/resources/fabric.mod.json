@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "fullbright",
+  "version": "${version}",
+
+  "name": "Fullbright",
+  "description": "Some useful client/mod",
+  "authors": ["Andman"],
+  "contact": {},
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/fullbright/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.andman.fullbright.Fullbright"
+    ]
+  },
+
+  "mixins": [
+    "fullbright.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": "~${minecraft_version}",
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*"
+  }
+}
