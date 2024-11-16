@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 @Mixin(LightmapTextureManager.class)
 public class LightmapTextureManagerMixin {
     @Redirect(method = "update", at = @At(value = "INVOKE", target = "Ljava/lang/Double;floatValue()F", ordinal = 1))
-    private float onUpdate(Double d) {
+    private float fullbright$onUpdate(Double d) {
         return LightmapUpdateCallback.EVENT.invoker().onUpdate(d.floatValue());
     }
 }
